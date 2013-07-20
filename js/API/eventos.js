@@ -40,6 +40,7 @@ $(document).ready(function(e){
 		$('a[href=#historial]').tap(function(event){
 			leerHistorial();
 		});
+		document.addEventListener("online", leerReservas, false);
 	}, false);
 });
 
